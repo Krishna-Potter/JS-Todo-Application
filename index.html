@@ -7,8 +7,9 @@
     <title>Todo-List</title>
   </head>
   <body>
-    <input type="text" id="getTaskTextbox" />
+    <input type="text" id="getTaskTextbox" onfocus='this.value=""' />
     <button onclick="addTask()">add</button>
+    <button onclick="deleteAllTask()">delete all</button>
     <script src="index.js"></script>
   </body>
 </html>
